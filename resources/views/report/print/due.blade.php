@@ -24,15 +24,15 @@
 							</tr>  			
 
 							<tr style="border: none !important;">
-								<td colspan="4" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Due Report from {{ date('j M Y',strtotime($start_date)) }} To {{ date('j M Y',strtotime($end_date)) }}</p></td>
+								<td colspan="4" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Reporte de Deudores Registrados con corte del {{ date('j M Y',strtotime($start_date)) }} al {{ date('j M Y',strtotime($end_date)) }}</p></td>
 
 							</tr>
 							<tr>
 								
-								<th>Customer</th>
+								<th>Cliente</th>
 								<th>Total Importe</th>
-								<th>Paid Importe</th>
-								<th>Due</th>
+								<th>Pagado</th>
+								<th>Pendiente</th>
 							</tr>
 						</thead>
 						

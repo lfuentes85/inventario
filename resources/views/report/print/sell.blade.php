@@ -24,21 +24,21 @@
 							</tr>  	  			
 
 							<tr style="border: none !important;">
-								<td colspan="11" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Sell Report from {{ date('j M Y',strtotime($start_date)) }} To {{ date('j M Y',strtotime($end_date)) }}</p></td>
+								<td colspan="11" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Reporte de Salidas con Corte del {{ date('j M Y',strtotime($start_date)) }} al {{ date('j M Y',strtotime($end_date)) }}</p></td>
 
 							</tr>
 							<tr>
-								<th>Product</th>
+								<th>Producto</th>
 								<th>Comprobante</th>
-								<th>Sold Date</th>
-								<th>Customer</th>
-								<th>Seller</th>
-								<th>Quantity</th>
-								<th>Unit Buying Price</th>
-								<th>Unit Selling Price</th>
-								<th>Disount Importe</th>
-								<th>Total Buying Importe</th>
-								<th>Total Selling Importe</th>
+								<th>Fecha de Venta</th>
+								<th>Vendido a</th>
+								<th>Vendio</th>
+								<th>Cantidad</th>
+								<th>Precio de Proveedor</th>
+								<th>Precio Final</th>
+								<th>Descuento</th>
+								<th>Total de Venta</th>
+								<th>Total de Venta Final</th>
 							
 							</tr>
 						</thead>

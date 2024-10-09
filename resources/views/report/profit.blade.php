@@ -4,7 +4,7 @@
 @section('title','Inventory | Profit-Report')
 
 
-@section('page-title','Profit Report')
+@section('page-title','Reporte de Ganancias')
 
 
 @section('content')
@@ -18,7 +18,7 @@
 			<div class="header">
 				<h2>
 					
-					Profit Report
+					Reporte de Ganancias
 					
 				</h2>
 
@@ -52,15 +52,15 @@
 							</tr>  	 			
 
 							<tr style="border: none !important;">
-								<td colspan="5" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Profit Report from {{ date('j M Y',strtotime($start_date)) }} To {{ date('j M Y',strtotime($end_date)) }}</p></td>
+								<td colspan="5" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Reporte de Ganacias con corte del {{ date('j M Y',strtotime($start_date)) }} al {{ date('j M Y',strtotime($end_date)) }}</p></td>
 
 							</tr>
 							<tr>
-								<th>Product</th>
-								<th>Quantity</th>
-								<th>Total Selling Importe</th>
-								<th>Total Buying Importe</th>
-								<th>Profit</th>
+								<th>Producto</th>
+								<th>Cantidad</th>
+								<th>Importe Total de Venta</th>
+								<th>Importe Total de Compra</th>
+								<th>Ganacia</th>
 							
 							</tr>
 						</thead>

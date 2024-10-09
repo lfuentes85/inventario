@@ -40922,27 +40922,27 @@ var render = function() {
             },
             [
               _c("option", { domProps: { value: "" } }, [
-                _vm._v("Chose Report Type *")
+                _vm._v("Seleccione reporte a generar *")
               ]),
               _vm._v(" "),
               _c("option", { domProps: { value: "stock" } }, [
-                _vm._v("Stock Report")
+                _vm._v("Reporte de Existencias")
               ]),
               _vm._v(" "),
               _c("option", { domProps: { value: "sell" } }, [
-                _vm._v("Sell Report")
+                _vm._v("Reporte de Salidas")
               ]),
               _vm._v(" "),
               _c("option", { domProps: { value: "profit" } }, [
-                _vm._v("Profit Report")
+                _vm._v("Reporte de Ganancias")
               ]),
               _vm._v(" "),
               _c("option", { domProps: { value: "due" } }, [
-                _vm._v("Due Report")
+                _vm._v("Reporte de Pagos")
               ]),
               _vm._v(" "),
               _c("option", { domProps: { value: "invoice" } }, [
-                _vm._v("Invoice Report")
+                _vm._v("Reporte de Ventas General")
               ])
             ]
           )
@@ -40959,7 +40959,7 @@ var render = function() {
             _c("vuejs-datepicker", {
               attrs: {
                 required: true,
-                placeholder: "Date To *",
+                placeholder: "Desde: *",
                 name: "start_date",
                 "input-class": "form-control"
               }
@@ -40979,7 +40979,7 @@ var render = function() {
             _c("vuejs-datepicker", {
               attrs: {
                 required: true,
-                placeholder: "Date From *",
+                placeholder: "Hasta: *",
                 name: "end_date",
                 "input-class": "form-control"
               }
@@ -41034,7 +41034,7 @@ var render = function() {
                 },
                 [
                   _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Chose Category (optional)")
+                    _vm._v("Seleccione Categoria (opcional)")
                   ]),
                   _vm._v(" "),
                   _vm._l(_vm.category, function(value) {
@@ -41094,7 +41094,7 @@ var render = function() {
                 },
                 [
                   _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Chose Product (optional)")
+                    _vm._v("Seleccione Producto (opcional)")
                   ]),
                   _vm._v(" "),
                   _vm._l(_vm.product, function(pr) {
@@ -41151,7 +41151,7 @@ var render = function() {
                 },
                 [
                   _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Chose Comprobante (optional)")
+                    _vm._v("Seleccione No. Comprobante (opcional)")
                   ]),
                   _vm._v(" "),
                   _vm._l(_vm.chalan, function(ch) {
@@ -41179,7 +41179,7 @@ var render = function() {
                 },
                 [
                   _c("option", { attrs: { value: "" } }, [
-                    _vm._v("Chose Vendor (optional)")
+                    _vm._v("Seleccione Proveedor (opcional)")
                   ]),
                   _vm._v(" "),
                   _vm._l(_vm.vendor, function(vn) {
@@ -41206,7 +41206,7 @@ var render = function() {
             },
             [
               _c("option", { attrs: { value: "" } }, [
-                _vm._v("Customer (optional)")
+                _vm._v("Seleccione Cliente (opcional)")
               ]),
               _vm._v(" "),
               _vm._l(_vm.customer, function(cs) {
@@ -41229,7 +41229,7 @@ var render = function() {
             { staticClass: "form-control select2", attrs: { name: "user_id" } },
             [
               _c("option", { attrs: { value: "" } }, [
-                _vm._v("Chose Stock Entire / Seller (optional)")
+                _vm._v("Seleccione vendedor (opcional)")
               ]),
               _vm._v(" "),
               _vm._l(_vm.user, function(us) {

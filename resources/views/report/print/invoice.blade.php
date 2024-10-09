@@ -24,18 +24,18 @@
 							</tr>  	  			
 
 							<tr style="border: none !important;">
-								<td colspan="8" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Invoice Report from {{ date('j M Y',strtotime($start_date)) }} To {{ date('j M Y',strtotime($end_date)) }}</p></td>
+								<td colspan="8" style="border: none !important;"><p style="text-align: center;font-weight: bold;">Reporte de Ventas con corte del {{ date('j M Y',strtotime($start_date)) }} al {{ date('j M Y',strtotime($end_date)) }}</p></td>
 
 							</tr>
 							<tr>
-								<th>Invoice No.</th>
-								<th>Invoice Date</th>
-								<th>Customer</th>
-								<th>Seller</th>
-								<th>Details</th>
-								<th>Total Importe</th>
-								<th>Paid Importe</th>
-								<th>Due</th>
+								<th>#</th>
+								<th>Fecha de Venta</th>
+								<th>Cliente</th>
+								<th>Vendedor</th>
+								<th>Detalle</th>
+								<th>Total</th>
+								<th>Pago</th>
+								<th>Pendiente</th>
 							</tr>
 						</thead>
 						
